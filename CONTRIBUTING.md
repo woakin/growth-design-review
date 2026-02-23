@@ -33,7 +33,7 @@ If you know of a proven Product Psychology principle or a Behavioral Economics f
 - Include a clear **definition**, **practical examples** of how to apply it, and how it impacts **Net Perceived Value (NPV)**.
 
 ### 2. Improving AI Instructions
-If you have ideas on how to make the core AI prompt (`skill.md`) more effective, accurate, or robust:
+If you have ideas on how to make the core AI prompt (`SKILL.md`) more effective, accurate, or robust:
 - Test your changes thoroughly in your local environment with various UI components.
 - Submit a PR explaining what you changed and the improvements you observed in the AI's output. Include before/after examples if possible.
 

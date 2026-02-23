@@ -12,7 +12,7 @@ However, we are committed to maintaining the integrity, accuracy, and safety of 
 
 ## Reporting an Issue
 
-If you discover a prompt injection vector, a manipulation tactic that forces the AI into malicious behavior, or any other structural issue that could be considered a security risk within `skill.md` or the `reference/` files, please report it to us.
+If you discover a prompt injection vector, a manipulation tactic that forces the AI into malicious behavior, or any other structural issue that could be considered a security risk within `SKILL.md` or the `reference/` files, please report it to us.
 
 **Do not open a public issue.**
 
