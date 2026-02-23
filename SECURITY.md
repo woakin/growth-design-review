@@ -16,7 +16,7 @@ If you discover a prompt injection vector, a manipulation tactic that forces the
 
 **Do not open a public issue.**
 
-Instead, please email the maintainer directly at: **[Insert Your Email Here]**
+Instead, please email the maintainer directly at: **[EMAIL_ADDRESS]**
 
 ### What to include in your report
 
