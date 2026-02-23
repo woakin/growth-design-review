@@ -30,11 +30,13 @@ For deep dives into these frameworks, check out the [`reference/frameworks.md`](
 
 ## 📦 Installation & Setup
 
-To use this skill in your AI-enabled editor (e.g., Cursor, Windsurf, GitHub Copilot, Replit):
+To install this skill for your AI assistants, use the `skills` CLI:
 
-1. Clone this repository or download the files.
-2. Ensure `skill.md` and the `reference/` directory are in your project's root or `.skills/` folder.
-3. The AI will now recognize prompts related to **"Growth Reviews"** or **"UX Audits."**
+```bash
+npx skills add woakin/growth-design-review
+```
+
+This will make the skill available globally across your compatible AI editors (e.g., Cursor, Windsurf, GitHub Copilot, Replit).
 
 ---
 
@@ -62,7 +64,7 @@ Simply ask your AI assistant:
 ## 📂 Repository Structure
 
 ```text
-├── skill.md                # The core AI instruction set
+├── SKILL.md                # The core AI instruction set
 ├── README.md               # Project documentation
 ├── LICENSE                 # MIT License
 ├── CONTRIBUTING.md         # Contribution guidelines
