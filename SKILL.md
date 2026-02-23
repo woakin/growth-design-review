@@ -1,6 +1,7 @@
 ---
 name: growth-design-review
 description: Review UI designs and code against Product Psychology & Growth Design frameworks (Psych, B.I.A.S., C.L.E.A.R., UI Rules of Thumb, Psychological Triggers). Use when asked to "review my design", "audit growth UX", "check conversion optimization", "review onboarding flow", "audit landing page", or "propose a development plan for my UI".
+license: MIT
 ---
 
 # 🧠 Growth Design Review Skill
