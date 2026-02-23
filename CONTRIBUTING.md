@@ -1,43 +1,80 @@
 # Contributing to Growth Design Architect
 
-First off, thank you for considering contributing to Growth Design Architect! It's people like you that make this skill better for everyone.
+Welcome! We are thrilled that you're interested in making the **Growth Design Architect** skill even better. 
 
-## Code of Conduct
+Whether you're a product designer, growth hacker, frontend developer, or just someone who loves behavioral economics, your contributions are highly valued. This project thrives on community input to keep the frameworks sharp and relevant.
 
-By participating in this project, you are expected to uphold a welcoming and inclusive environment. Please be respectful to all contributors.
+---
 
-## How Can I Contribute?
+## 🧭 Table of Contents
+- [Code of Conduct](#-code-of-conduct)
+- [How Can I Contribute?](#-how-can-i-contribute)
+  - [Suggesting Framworks & Rules of Thumb](#1-suggesting-frameworks--rules-of-thumb)
+  - [Improving AI Instructions](#2-improving-ai-instructions)
+  - [Reporting Issues](#3-reporting-issues)
+- [Your First Contribution](#-your-first-contribution)
+- [Pull Request Process](#-pull-request-process)
+- [Development Setup](#-development-setup)
 
-### 1. Adding New Frameworks or Rules of Thumb
+---
+
+## 🤝 Code of Conduct
+
+By participating in this project, you are expected to uphold a welcoming and inclusive environment. Please be respectful, constructive, and kind to all contributors.
+
+---
+
+## 💡 How Can I Contribute?
+
+### 1. Suggesting Frameworks & Rules of Thumb
 If you know of a proven Product Psychology principle or a Behavioral Economics framework that isn't included yet:
-- Fork the repository.
-- Update `reference/frameworks.md` with the new concept. Include a clear definition, practical examples of how to apply it, and how it impacts Net Perceived Value (NPV).
-- Create a Pull Request (PR) with a clear description of the new framework and why it should be included.
+- Check existing issues and PRs to see if it's already being discussed.
+- Update `reference/frameworks.md` with the new concept. 
+- Include a clear **definition**, **practical examples** of how to apply it, and how it impacts **Net Perceived Value (NPV)**.
 
-### 2. Improving the Core Skill Instructions
-If you have ideas on how to make the AI prompt (`skill.md`) more effective, accurate, or robust:
-- Test your changes thoroughly in your local environment.
-- Submit a PR explaining what you changed and what improvements you observed in the AI's output.
+### 2. Improving AI Instructions
+If you have ideas on how to make the core AI prompt (`skill.md`) more effective, accurate, or robust:
+- Test your changes thoroughly in your local environment with various UI components.
+- Submit a PR explaining what you changed and the improvements you observed in the AI's output. Include before/after examples if possible.
 
-### 3. Reporting Issues or Suggesting Enhancements
-Found a bug in the documentation? Have a great idea for a new feature?
-- Check the existing issues to see if it has already been reported.
-- If not, open a new issue. Be as detailed as possible, providing examples or screenshots if applicable.
+### 3. Reporting Issues
+Found a bug, typo, or have a great idea for a new feature?
+- Search the [Issues](../../issues) tab first to avoid duplicates.
+- If it's a new issue, please try to be as detailed as possible. Provide examples, context, or code snippets that illustrate the problem.
 
-## Pull Request Process
+---
 
-1. **Fork** the repo and create your branch from `main`.
-2. **Make your changes** ensuring they follow the project's formatting and style.
-3. **Commit** your changes with clear, descriptive commit messages.
-4. **Push** your branch to your fork on GitHub.
-5. **Open a Pull Request** against the `main` branch of this repository.
+## 🚀 Your First Contribution
 
-### PR Requirements
-- Update the `README.md` if your changes require it.
-- Ensure your explanations in `reference/frameworks.md` are concise, objective, and actionable for an AI.
-- Be prepared to discuss your PR. The maintainers may ask for clarification or suggest changes before merging.
+Unsure where to start?
+Look for issues labeled with `good first issue` or `help wanted`. These are specifically curated to be approachable for new contributors. 
 
-## Development Setup
+---
+
+## 🔄 Pull Request Process
+
+Our goal is to make contributing as frictionless as possible:
+
+1. **Fork** the repository and create your feature branch from `main`:
+   ```bash
+   git checkout -b feature/amazing-new-framework
+   ```
+2. **Make your changes**. Ensure they follow the project's formatting and style (markdown).
+3. **Commit** your changes with clear, descriptive commit messages:
+   ```bash
+   git commit -m "Add Cognitive Friction analysis to Psych framework"
+   ```
+4. **Push** your branch to your fork on GitHub:
+   ```bash
+   git push origin feature/amazing-new-framework
+   ```
+5. **Open a Pull Request** against the `main` branch of this repository. Provide a clear description of the problem you're solving or the feature you're adding.
+
+> **Note**: Be prepared to discuss your PR. Maintainers may ask for clarification or suggest tweaks before merging to ensure consistency in the AI's behavior.
+
+---
+
+## 🛠 Development Setup
 
 To work on this project locally, simply clone the repository:
 
@@ -46,6 +83,6 @@ git clone https://github.com/woakin/growth-design-review.git
 cd growth-design-review
 ```
 
-You can then edit the markdown files using your preferred text editor.
+You can then edit the markdown files using your preferred text editor (VS Code, Obsidian, etc.). Since this is an AI prompt skill, you don't need to install any heavy dependencies.
 
-Thank you for contributing!
+Thank you for contributing to the community! 🎉
