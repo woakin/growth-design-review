@@ -59,6 +59,21 @@ Simply ask your AI assistant:
 | **L** - Layout | 4/5 | Strong Z-pattern usage. |
 | **E** - Emphasis | 2/5 | "Skittles Effect" detected—too many primary buttons. |
 
+### 🎨 Real-World Example (Before & After)
+
+*A visual breakdown of how the skill improves landing page conversion via the Psych framework and C.L.E.A.R. copywriting.*
+
+<table align="center">
+  <tr>
+    <td align="center"><b>Before</b></td>
+    <td align="center"><b>After</b></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/example-before.png" alt="Before Growth Design Review" width="400"/></td>
+    <td><img src="./assets/example-after.png" alt="After Growth Design Review" width="400"/></td>
+  </tr>
+</table>
+
 ---
 
 ## 📂 Repository Structure
@@ -68,6 +83,7 @@ Simply ask your AI assistant:
 ├── README.md               # Project documentation
 ├── LICENSE                 # MIT License
 ├── CONTRIBUTING.md         # Contribution guidelines
+├── assets/                 # Images and media for documentation
 └── reference/
     └── frameworks.md       # Deep-dive definitions of growth frameworks
 ```
