@@ -26,12 +26,15 @@ This skill applies five core frameworks. **CRITICAL:** You must read the full de
 
 Whenever a user requests a review, strictly follow these steps:
 
-1. **Load Context:** Read the `reference/frameworks.md` file from this skill's directory.
-2. **Understand the Target:** Read the target UI files (components, pages, styles) the user wants reviewed. If none are provided, ask the user which files to evaluate.
-3. **Systematic Audit:** Evaluate the UI against *all five* frameworks systematically.
-4. **Scoring:** Rate each C.L.E.A.R. dimension (Copy, Layout, Emphasis, Accessibility, Reward) on a strict **1–5 scale**.
-5. **Actionable Output:** Generate the output exactly matching the format below.
-6. **Next Steps:** Offer to implement the Priority 1 (Critical) items immediately for the user.
+1. **Diagnostic Routing:** Determine if the interface involves AI (LLMs, generative UI, or autonomous agents).
+   - *If standard SaaS/Web:* Apply the Psych Framework, B.I.A.S. Audit, and C.L.E.A.R. Scorecard.
+   - *If AI-Native:* Read `reference/shape-of-ai.md`. Apply standard frameworks to diagnose friction, but you MUST propose solutions using specific Shape of AI patterns.
+2. **Load Context:** Read the `reference/frameworks.md` file from this skill's directory.
+3. **Understand the Target:** Read the target UI files (components, pages, styles) the user wants reviewed. If none are provided, ask the user which files to evaluate.
+4. **Systematic Audit:** Evaluate the UI against *all* applicable frameworks systematically.
+5. **Scoring:** Rate each C.L.E.A.R. dimension (Copy, Layout, Emphasis, Accessibility, Reward) on a strict **1–5 scale**.
+6. **Actionable Output:** Generate the output exactly matching the format below.
+7. **Next Steps:** Offer to implement the Priority 1 (Critical) items immediately for the user.
 
 ---
 
@@ -76,6 +79,11 @@ You must format your response exactly as follows:
 - **IKEA Effect:** [Present / Missed Opportunity] - [Explanation]
 - **Zeigarnik Effect:** [Present / Missed Opportunity] - [Explanation]
 - **Loss Aversion:** [Present / Missed Opportunity] - [Explanation]
+
+### 6. Shape of AI Analysis (If AI-Native)
+| Dimension | Friction Point | NPV Impact | Recommended Shape of AI Pattern |
+| :--- | :--- | :--- | :--- |
+| [Category] | [Brief Description] | [Impact] | **[Pattern Name]:** [Execution suggestion] |
 
 ---
 

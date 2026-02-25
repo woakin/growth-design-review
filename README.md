@@ -23,8 +23,9 @@ This skill applies five distinct diagnostic layers to your code:
 - **C.L.E.A.R. Scorecard** – A quantitative 1–5 scoring system for *Copy, Layout, Emphasis, Accessibility, and Reward*.
 - **UI Rules of Thumb** – Best practices for Landing Pages, Dashboards, and Onboarding flows.
 - **Psychological Triggers** – Implementation of the IKEA Effect, Zeigarnik Effect, and Loss Aversion.
+- **Shape of AI** – Applying specific patterns (Wayfinders, Tuners, Governors, Trust Builders, Identifiers) to reduce friction in AI-Native interfaces.
 
-For deep dives into these frameworks, check out the [`reference/frameworks.md`](./reference/frameworks.md) file.
+For deep dives into these frameworks, check out the [`reference/frameworks.md`](./reference/frameworks.md) and [`reference/shape-of-ai.md`](./reference/shape-of-ai.md) files.
 
 ---
 
@@ -85,7 +86,8 @@ Simply ask your AI assistant:
 ├── CONTRIBUTING.md         # Contribution guidelines
 ├── assets/                 # Images and media for documentation
 └── reference/
-    └── frameworks.md       # Deep-dive definitions of growth frameworks
+    ├── frameworks.md       # Deep-dive definitions of growth frameworks
+    └── shape-of-ai.md      # Patterns for AI-Native interfaces
 ```
 
 ---
