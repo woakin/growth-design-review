@@ -12,7 +12,7 @@ Review UI designs or code against **Product Psychology & Growth Design framework
 
 ## 📚 Frameworks Overview
 
-This skill applies five core frameworks. **CRITICAL:** You must read the full definitions in `reference/frameworks.md` before performing any review.
+This skill applies five core frameworks plus an AI extension. **CRITICAL:** To optimize context usage, only load the framework definitions you need for the task at hand from the `reference/` directory.
 
 1. **Psych Framework** — Maximize Net Perceived Value (Motivation - Friction).
 2. **B.I.A.S. Framework** — Behavioral audit: Block, Interpret, Act, Store.
@@ -28,8 +28,15 @@ Whenever a user requests a review, strictly follow these steps:
 
 1. **Diagnostic Routing:** Determine if the interface involves AI (LLMs, generative UI, or autonomous agents).
    - *If standard SaaS/Web:* Apply the Psych Framework, B.I.A.S. Audit, and C.L.E.A.R. Scorecard.
-   - *If AI-Native:* Read `reference/shape-of-ai.md`. Apply standard frameworks to diagnose friction, but you MUST propose solutions using specific Shape of AI patterns.
-2. **Load Context:** Read the `reference/frameworks.md` file from this skill's directory.
+   - *If AI-Native:* Apply standard frameworks to diagnose friction, but you MUST propose solutions using specific Shape of AI patterns.
+2. **Context Routing (Lazy Load):** Analyze the user's prompt to determine which frameworks are needed. Use file reading tools to load ONLY the specific markdown files required from this skill's directory:
+   - If user asks for Psych -> read `reference/psych.md`
+   - If user asks for B.I.A.S. -> read `reference/bias.md`
+   - If user asks for C.L.E.A.R. -> read `reference/clear.md`
+   - If user asks for Rules of Thumb -> read `reference/rules-of-thumb.md`
+   - If user asks for Psychological Triggers -> read `reference/psychological-triggers.md`
+   - If user asks for a "Full Audit" -> Read all core framework files individually.
+   - If the interface is AI-Native -> read `reference/shape-of-ai.md`
 3. **Understand the Target:** Read the target UI files (components, pages, styles) the user wants reviewed. If none are provided, ask the user which files to evaluate.
 4. **Systematic Audit:** Evaluate the UI against *all* applicable frameworks systematically.
 5. **Scoring:** Rate each C.L.E.A.R. dimension (Copy, Layout, Emphasis, Accessibility, Reward) on a strict **1–5 scale**.

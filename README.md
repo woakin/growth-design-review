@@ -25,7 +25,7 @@ This skill applies five distinct diagnostic layers to your code:
 - **Psychological Triggers** – Implementation of the IKEA Effect, Zeigarnik Effect, and Loss Aversion.
 - **Shape of AI** – Applying specific patterns (Wayfinders, Tuners, Governors, Trust Builders, Identifiers) to reduce friction in AI-Native interfaces.
 
-For deep dives into these frameworks, check out the [`reference/frameworks.md`](./reference/frameworks.md) and [`reference/shape-of-ai.md`](./reference/shape-of-ai.md) files.
+For deep dives into these frameworks, check out the files in the [`reference/`](./reference/) directory, such as [`psych.md`](./reference/psych.md) or [`shape-of-ai.md`](./reference/shape-of-ai.md).
 
 ---
 
@@ -86,8 +86,12 @@ Simply ask your AI assistant:
 ├── CONTRIBUTING.md         # Contribution guidelines
 ├── assets/                 # Images and media for documentation
 └── reference/
-    ├── frameworks.md       # Deep-dive definitions of growth frameworks
-    └── shape-of-ai.md      # Patterns for AI-Native interfaces
+    ├── psych.md                # Motivation x Ability framework
+    ├── bias.md                 # Behavioral audit definitions
+    ├── clear.md                # Scoring guidelines for Copy/Layout
+    ├── rules-of-thumb.md       # Page-specific heuristics
+    ├── psychological-triggers.md # Cognitive biases
+    └── shape-of-ai.md          # Patterns for AI-Native interfaces
 ```
 
 ---
@@ -97,7 +101,7 @@ Simply ask your AI assistant:
 We love contributions! If you have a new Psychological Trigger or a UI Rule of Thumb to add:
 
 1. **Fork** the repo.
-2. **Update** `reference/frameworks.md`.
+2. **Update** the appropriate file in the `reference/` directory (e.g., `reference/psychological-triggers.md`).
 3. Open a **Pull Request**.
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.

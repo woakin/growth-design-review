@@ -29,7 +29,7 @@ By participating in this project, you are expected to uphold a welcoming and inc
 ### 1. Suggesting Frameworks & Rules of Thumb
 If you know of a proven Product Psychology principle or a Behavioral Economics framework that isn't included yet:
 - Check existing issues and PRs to see if it's already being discussed.
-- Update `reference/frameworks.md` with the new concept. 
+- Update the appropriate markdown file in the `reference/` directory (e.g., `psych.md`, `psychological-triggers.md`) with the new concept. 
 - Include a clear **definition**, **practical examples** of how to apply it, and how it impacts **Net Perceived Value (NPV)**.
 
 ### 2. Improving AI Instructions
