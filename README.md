@@ -8,23 +8,28 @@ Turn your AI assistant into a **Senior Growth Designer**. This skill audits UI d
 
 ## 🚀 Overview
 
-Most UI reviews are subjective. This skill makes them objective by using the same frameworks employed by top growth teams (inspired by the behavioral case studies at [Growth.design](https://growth.design/)). It analyzes your components, pages, and copy to calculate and maximize the **Net Perceived Value (NPV)**.
+Most UI reviews are subjective. This skill makes them objective by using the same frameworks employed by top growth teams (inspired by the behavioral case studies at [Growth.design](https://growth.design/)). It analyzes your components, pages, and copy through a **Causal Diagnostic Pipeline** to calculate and maximize the **Net Perceived Value (NPV)**.
 
 > **NPV = Motivation - Friction**
 
 ---
 
-## 🛠 Included Frameworks
+## 🔄 The Causal Diagnostic Pipeline
 
-This skill applies five complementary diagnostic layers to your code:
+The skill connects behavioral frameworks into an end-to-end diagnosis:
 
-- **Psych Framework** – Assessing cognitive fuel ($P = \text{Motivation} \times \text{Ability}$), minimizing "Psych subtractions" (redundant fields, jargon), and leveraging the *Labor Illusion*.
-- **B.I.A.S. Audit** – A behavioral check on how users *Block, Interpret, Act, and Store* information.
-- **C.L.E.A.R. Scorecard** – A rigorous 1–5 quantitative scoring system for *Copy, Layout, Emphasis, Accessibility, and Reward* (up to 25 pts).
-- **UI Rules of Thumb** – Heuristics for Landing Pages, E-commerce (PDP), Cart & Checkout, Pricing Tables, Onboarding flows, Dashboards, and Mobile UX.
-- **Psychological Triggers** – Applied cognitive biases: *IKEA Effect, Zeigarnik Effect, Endowed Progress, Social Proof, Decoy Effect, Loss Aversion, Authentic Urgency, and Default Effect*.
+```
+[Psych Framework] ──> [B.I.A.S. Audit] ──> [C.L.E.A.R. & Rules] ──> [Psych Triggers] ──> [Development Plan]
+Energy Drain           Mental Breakdown     Tangible UI Root Cause   Behavioral Antidote   Code-Level Implementation
+```
 
-For deep dives into these frameworks, check out the files in the [`reference/`](./reference/) directory:
+1. **Psych Framework** – Assesses cognitive fuel ($P = \text{Motivation} \times \text{Ability}$), Psych subtractions, and the *Labor Illusion*.
+2. **B.I.A.S. Audit** – Traces how users *Block, Interpret, Act, and Store* information.
+3. **C.L.E.A.R. Scorecard** – A quantitative 1–5 scoring system for *Copy, Layout, Emphasis, Accessibility, and Reward* (up to 25 pts).
+4. **UI Rules of Thumb** – Heuristics for Landing Pages, E-commerce (PDP), Cart & Checkout, Pricing Tables, Onboarding flows, Dashboards, and Mobile UX.
+5. **Psychological Triggers** – 8 applied cognitive biases (*IKEA Effect, Zeigarnik, Endowed Progress, Social Proof, Decoy Effect, Loss Aversion, Authentic Urgency, Default Effect*).
+
+For deep dives into these frameworks, see the [`reference/`](./reference/) directory:
 - [`psych.md`](./reference/psych.md)
 - [`bias.md`](./reference/bias.md)
 - [`clear.md`](./reference/clear.md)
@@ -41,13 +46,13 @@ To install this skill for your AI assistants, use the `skills` CLI:
 npx skills add woakin/growth-design-review
 ```
 
-This will make the skill available globally across your compatible AI editors (e.g., Cursor, Windsurf, GitHub Copilot, Antigravity).
+This makes the skill available globally across compatible AI editors (e.g., Cursor, Windsurf, GitHub Copilot, Antigravity).
 
 ---
 
 ## 💬 Usage Examples
 
-Simply ask your AI assistant:
+Simply prompt your AI assistant naturally:
 
 - *"Review my `LandingPage.tsx` using the Psych framework."*
 - *"Run a B.I.A.S. audit on our new checkout flow."*
@@ -55,11 +60,28 @@ Simply ask your AI assistant:
 - *"Audit our pricing table using the Decoy and Default effects."*
 - *"Propose a development plan to increase conversion on this onboarding screen."*
 
-### Example Output Preview
+### 🎯 How to Get 10/10 Results (Context Best Practices)
+
+The skill automatically inspects your code, but providing **three simple context signals** unlocks surgical accuracy:
+
+```text
+Review @src/components/PricingTable.tsx using growth-design-review:
+- Primary Goal: Upgrade free trial users to the Annual Pro plan.
+- Target Audience: B2B team leads and engineering managers.
+- Known Friction: Users hesitate between the Starter and Pro tiers.
+```
+
+1. **Tag the File(s):** Use `@ComponentName.tsx` so the agent reads actual markup, Tailwind classes, and state transitions.
+2. **State the Primary Conversion Action:** Whether it's *Add to Cart*, *Start Trial*, or *Book Demo*, this anchors the hierarchy evaluation.
+3. **Specify the Audience (ICP):** D2C shoppers have different trust thresholds than B2B buyers.
+
+---
+
+### 📋 Example Output Preview
 
 **3. C.L.E.A.R. Scorecard**
 
-| Dimension | Score (1-5) | Finding |
+| Dimension | Score (1-5) | Finding & UI Driver |
 | :--- | :---: | :--- |
 | **C** - Copywriting | 2/5 | Headlines focus on technical features rather than user outcomes. |
 | **L** - Layout | 4/5 | Strong Z-pattern visual hierarchy on desktop. |
@@ -93,7 +115,7 @@ Simply ask your AI assistant:
 
 ```text
 ├── SKILL.md                  # The core AI instruction set & orchestrator
-├── README.md                 # Project documentation
+├── README.md                 # Project documentation & usage guide
 ├── LICENSE                   # MIT License
 ├── CONTRIBUTING.md           # Contribution guidelines
 ├── assets/                   # Images and media for documentation

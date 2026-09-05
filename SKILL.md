@@ -50,7 +50,10 @@ To optimize context usage, use file reading tools to load ONLY the specific fram
 Whenever a user requests a review, strictly execute these steps:
 
 1. **Context Routing:** Load the required reference files from `reference/` based on the user's request (or load all for a full review).
-2. **Inspect the Target:** Read the target UI files (JSX/TSX, HTML, Tailwind/CSS classes, page copy). If none are provided, ask the user which files or URLs to evaluate.
+2. **Context Calibration & Grounding:**
+   - **Target Files:** Read the target UI files (JSX/TSX components, HTML templates, CSS/Tailwind classes, page copy). If none are provided, stop and ask the user which file or URL to evaluate.
+   - **Primary Conversion Goal:** Infer the primary desired action from the code (e.g., "Add to Cart", "Start Free Trial", "Book Demo", "Complete Step 2"). If ambiguous, state the assumed primary goal clearly in the Diagnostic Summary.
+   - **Target Audience (ICP):** Identify the audience context (D2C E-commerce, B2B SaaS, Developer Tool, Consumer App). Calibrate copywriting scrutiny and trust requirements to that specific persona.
 3. **Execute the Diagnostic Pipeline:**
    - Measure Psych energy balance.
    - Trace the B.I.A.S. mental failure point.
@@ -69,6 +72,7 @@ Format the review output as follows:
 ## 📈 Growth Design Audit
 
 ### 🔍 Diagnostic Summary
+* **Context & Objective:** [Component analyzed, detected target audience (ICP), and primary conversion goal]
 * **Primary Cognitive Bottleneck:** [1–2 sentence summary of where and why user energy/conversion breaks down, connecting Psych → B.I.A.S. → C.L.E.A.R.]
 
 ---
