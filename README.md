@@ -67,6 +67,20 @@ Your AI assistant will execute an objective audit and deliver an immediate **Pri
 
 ---
 
+## ⚖️ Why Growth Design Review?
+
+Traditional developer tools check syntax and performance, but ignore why users abandon your app:
+
+| Diagnostic Layer | Linters (ESLint, Prettier) | Lighthouse / Web Vitals | Growth Design Review |
+| :--- | :---: | :---: | :---: |
+| **Code Syntax & Formatting** | ✅ | ❌ | ❌ |
+| **Load Speed & Technical SEO** | ❌ | ✅ | ❌ |
+| **Product Psychology & Behavioral Biases** | ❌ | ❌ | ✅ |
+| **Friction & Cognitive Load Analysis** | ❌ | ❌ | ✅ |
+| **Actionable Code Refactoring Plan (P1/P2/P3)** | ❌ | ❌ | ✅ |
+
+---
+
 ## 🔄 The Causal Diagnostic Pipeline
 
 Most UI reviews are subjective opinions. This skill makes them objective by running your interface through an end-to-end **Causal Diagnostic Pipeline** inspired by [Growth.design](https://growth.design/):
@@ -78,19 +92,23 @@ Most UI reviews are subjective opinions. This skill makes them objective by runn
                            breakdown (B,I,A,S).                                          that specific friction.       prioritized by ROI.
 ```
 
-### The 5 Diagnostic Layers
+<details>
+<summary><b>🔍 Expand to view the 5 Diagnostic Layers in detail</b></summary>
+<br>
 
-1. **Psych Framework** (`reference/psych.md`) — Calculates cognitive fuel ($P = \text{Motivation} \times \text{Ability}$), minimizes "Psych subtractions" (clutter, jargon), and applies the *Labor Illusion*.
-2. **B.I.A.S. Behavioral Audit** (`reference/bias.md`) — Evaluates the 4-stage mental processing funnel: **Block** (trust & hierarchy), **Interpret** (clarity over cleverness), **Act** (decision simplicity), and **Store** (peak-end rule).
-3. **C.L.E.A.R. Scorecard** (`reference/clear.md`) — A quantitative 1–5 scoring system across **C**opywriting, **L**ayout, **E**mphasis, **A**ccessibility, and **R**eward (up to 25 pts).
-4. **UI Rules of Thumb** (`reference/rules-of-thumb.md`) — Context heuristics tailored for:
+1. **Psych Framework** ([`reference/psych.md`](./reference/psych.md)) — Calculates cognitive fuel ($P = \text{Motivation} \times \text{Ability}$), minimizes "Psych subtractions" (clutter, jargon), and applies the *Labor Illusion*.
+2. **B.I.A.S. Behavioral Audit** ([`reference/bias.md`](./reference/bias.md)) — Evaluates the 4-stage mental processing funnel: **Block** (trust & hierarchy), **Interpret** (clarity over cleverness), **Act** (decision simplicity), and **Store** (peak-end rule).
+3. **C.L.E.A.R. Scorecard** ([`reference/clear.md`](./reference/clear.md)) — A quantitative 1–5 scoring system across **C**opywriting, **L**ayout, **E**mphasis, **A**ccessibility, and **R**eward (up to 25 pts).
+4. **UI Rules of Thumb** ([`reference/rules-of-thumb.md`](./reference/rules-of-thumb.md)) — Context heuristics tailored for:
    - **Landing Pages:** Singular conversion focus, credibility signals, early social proof.
    - **E-commerce & PDP:** Sticky Add-to-Cart bar, adjacent friction reducers, variant clarity.
    - **Cart & Checkout:** Distraction-free flow, 1-click express checkout (Shop Pay, Apple Pay).
    - **Pricing Tables:** Visual anchoring, default annual savings callouts.
    - **Onboarding & Dashboards:** Time-to-Value (TTV), North Star metric hierarchy.
    - **Mobile-First:** Thumb Zone ergonomics, minimum 44x44px touch targets.
-5. **Psychological Triggers** (`reference/psychological-triggers.md`) — 8 applied cognitive biases: *IKEA Effect, Zeigarnik Effect, Endowed Progress, Social Proof, Decoy Effect, Loss Aversion, Authentic Urgency, and Default Effect*.
+5. **Psychological Triggers** ([`reference/psychological-triggers.md`](./reference/psychological-triggers.md)) — 8 applied cognitive biases: *IKEA Effect, Zeigarnik Effect, Endowed Progress, Social Proof, Decoy Effect, Loss Aversion, Authentic Urgency, and Default Effect*.
+
+</details>
 
 ---
 
@@ -131,6 +149,28 @@ Review @src/components/CheckoutModal.tsx using growth-design-review:
 | 1 | Demote secondary buttons to ghost/outline style | Emphasis / Hick's Law | `Hero.tsx#L42` | Eliminates choice paralysis |
 | 2 | Rewrite H1 headline to focus on 10x speed benefit | Copywriting / Clarity | `Hero.tsx#L18` | Increases 3-second comprehension |
 ```
+
+---
+
+## ❓ Frequently Asked Questions
+
+<details>
+<summary><b>Which frontend frameworks and stacks are supported?</b></summary>
+<br>
+The skill works with any frontend stack: React, Next.js, Vue, Svelte, plain HTML/CSS, Tailwind CSS, Shopify Liquid themes, React Native, and mobile web views.
+</details>
+
+<details>
+<summary><b>Can I review visual designs or screenshots without code?</b></summary>
+<br>
+Yes! In AI editors that support image attachments (such as Cursor or Antigravity), attach a screenshot of your mockup or live site. The agent will run the B.I.A.S. and C.L.E.A.R. scorecard on the visual presentation.
+</details>
+
+<details>
+<summary><b>How does this differ from accessibility (a11y) linters?</b></summary>
+<br>
+While accessibility is one of the 5 pillars in the C.L.E.A.R. scorecard, this skill audits cognitive decision-making, choice architecture, motivation, and conversion friction that technical linters cannot evaluate.
+</details>
 
 ---
 
