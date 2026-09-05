@@ -3,6 +3,7 @@
 <p align="left">
   <a href="https://skills.sh/woakin/growth-design-review"><img src="https://img.shields.io/badge/skills.sh-verified-blue?style=flat-square" alt="skills.sh"/></a>
   <img src="https://img.shields.io/badge/compatible%20with-Cursor%20%7C%20Claude%20%7C%20Windsurf%20%7C%20Copilot%20%7C%20Antigravity-success?style=flat-square" alt="Compatibility"/>
+  <a href="https://github.com/woakin/growth-design-review/actions"><img src="https://github.com/woakin/growth-design-review/actions/workflows/validate.yml/badge.svg" alt="CI"/></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"/></a>
 </p>
 

@@ -1,0 +1,31 @@
+{
+  "name": "growth-design-review",
+  "version": "1.2.0",
+  "description": "AI Agent Skill for reviewing UI designs and frontend code against Product Psychology, Behavioral Economics, and Growth Design frameworks",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate-skill.mjs",
+    "validate": "node scripts/validate-skill.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woakin/growth-design-review.git"
+  },
+  "keywords": [
+    "ai-agent",
+    "skills",
+    "growth-design",
+    "cro",
+    "product-psychology",
+    "cursor",
+    "windsurf",
+    "copilot",
+    "antigravity"
+  ],
+  "author": "Joaquin Gonzalez <joaquin@lida.ai>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woakin/growth-design-review/issues"
+  },
+  "homepage": "https://github.com/woakin/growth-design-review#readme"
+}
