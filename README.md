@@ -1,4 +1,4 @@
-# 🧠 Growth Design Architect
+# 🧠 Growth Design Review
 
 <p align="left">
   <a href="https://skills.sh/woakin/growth-design-review"><img src="https://img.shields.io/badge/skills.sh-verified-blue?style=flat-square" alt="skills.sh"/></a>

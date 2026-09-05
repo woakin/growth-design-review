@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-The **Growth Design Architect** skill is an AI prompt and educational reference repository. Since this project does not contain executable application code or dependent software libraries, traditional software vulnerabilities (like RCE, SQLi, or XSS) are generally not applicable to the core prompt text itself.
+The **Growth Design Review** skill is an AI prompt and educational reference repository. Since this project does not contain executable application code or dependent software libraries, traditional software vulnerabilities (like RCE, SQLi, or XSS) are generally not applicable to the core prompt text itself.
 
 However, we are committed to maintaining the integrity, accuracy, and safety of the instructions provided to AI models.
 

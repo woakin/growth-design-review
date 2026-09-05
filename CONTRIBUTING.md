@@ -1,6 +1,6 @@
-# Contributing to Growth Design Architect
+# Contributing to Growth Design Review
 
-Welcome! We are thrilled that you're interested in making the **Growth Design Architect** skill even better. 
+Welcome! We are thrilled that you're interested in making the **Growth Design Review** skill even better. 
 
 Whether you're a product designer, growth hacker, frontend developer, or just someone who loves behavioral economics, your contributions are highly valued. This project thrives on community input to keep the frameworks sharp and relevant.
 
