@@ -97,17 +97,17 @@ Most UI reviews are subjective opinions. This skill makes them objective by runn
 <summary><b>🔍 Expand to view the 5 Diagnostic Layers in detail</b></summary>
 <br>
 
-1. **Psych Framework** ([`reference/psych.md`](./reference/psych.md)) — Calculates cognitive fuel ($P = \text{Motivation} \times \text{Ability}$), minimizes "Psych subtractions" (clutter, jargon), and applies the *Labor Illusion*.
-2. **B.I.A.S. Behavioral Audit** ([`reference/bias.md`](./reference/bias.md)) — Evaluates the 4-stage mental processing funnel: **Block** (trust & hierarchy), **Interpret** (clarity over cleverness), **Act** (decision simplicity), and **Store** (peak-end rule).
-3. **C.L.E.A.R. Scorecard** ([`reference/clear.md`](./reference/clear.md)) — A quantitative 1–5 scoring system across **C**opywriting, **L**ayout, **E**mphasis, **A**ccessibility, and **R**eward (up to 25 pts).
-4. **UI Rules of Thumb** ([`reference/rules-of-thumb.md`](./reference/rules-of-thumb.md)) — Context heuristics tailored for:
+1. **Psych Framework** ([`reference/psych.md`](./skills/growth-design-review/reference/psych.md)) — Calculates cognitive fuel ($P = \text{Motivation} \times \text{Ability}$), minimizes "Psych subtractions" (clutter, jargon), and applies the *Labor Illusion*.
+2. **B.I.A.S. Behavioral Audit** ([`reference/bias.md`](./skills/growth-design-review/reference/bias.md)) — Evaluates the 4-stage mental processing funnel: **Block** (trust & hierarchy), **Interpret** (clarity over cleverness), **Act** (decision simplicity), and **Store** (peak-end rule).
+3. **C.L.E.A.R. Scorecard** ([`reference/clear.md`](./skills/growth-design-review/reference/clear.md)) — A quantitative 1–5 scoring system across **C**opywriting, **L**ayout, **E**mphasis, **A**ccessibility, and **R**eward (up to 25 pts).
+4. **UI Rules of Thumb** ([`reference/rules-of-thumb.md`](./skills/growth-design-review/reference/rules-of-thumb.md)) — Context heuristics tailored for:
    - **Landing Pages:** Singular conversion focus, credibility signals, early social proof.
    - **E-commerce & PDP:** Sticky Add-to-Cart bar, adjacent friction reducers, variant clarity.
    - **Cart & Checkout:** Distraction-free flow, 1-click express checkout (Shop Pay, Apple Pay).
    - **Pricing Tables:** Visual anchoring, default annual savings callouts.
    - **Onboarding & Dashboards:** Time-to-Value (TTV), North Star metric hierarchy.
    - **Mobile-First:** Thumb Zone ergonomics, minimum 44x44px touch targets.
-5. **Psychological Triggers** ([`reference/psychological-triggers.md`](./reference/psychological-triggers.md)) — 8 applied cognitive biases: *IKEA Effect, Zeigarnik Effect, Endowed Progress, Social Proof, Decoy Effect, Loss Aversion, Authentic Urgency, and Default Effect*.
+5. **Psychological Triggers** ([`reference/psychological-triggers.md`](./skills/growth-design-review/reference/psychological-triggers.md)) — 8 applied cognitive biases: *IKEA Effect, Zeigarnik Effect, Endowed Progress, Social Proof, Decoy Effect, Loss Aversion, Authentic Urgency, and Default Effect*.
 
 </details>
 
@@ -178,17 +178,19 @@ While accessibility is one of the 5 pillars in the C.L.E.A.R. scorecard, this sk
 ## 📂 Repository Structure
 
 ```text
-├── SKILL.md                  # The core AI instruction set & orchestrator
-├── README.md                 # Project documentation & usage guide
-├── LICENSE                   # MIT License
-├── CONTRIBUTING.md           # Contribution guidelines
-├── assets/                   # Images and media for documentation
-└── reference/
-    ├── psych.md              # Motivation x Ability framework & Labor Illusion
-    ├── bias.md               # Behavioral audit (Block, Interpret, Act, Store)
-    ├── clear.md              # Quantitative C.L.E.A.R. scoring guidelines
-    ├── rules-of-thumb.md     # Heuristics: Landing, E-com, Checkout, Pricing, Onboarding, Mobile
-    └── psychological-triggers.md # 8 Applied behavioral economics triggers
+├── README.md                              # Project documentation & usage guide
+├── LICENSE                                # MIT License
+├── CONTRIBUTING.md                        # Contribution guidelines
+├── assets/                                # Images and media for documentation
+└── skills/
+    └── growth-design-review/
+        ├── SKILL.md                       # The core AI instruction set & orchestrator
+        └── reference/
+            ├── psych.md                   # Motivation x Ability framework & Labor Illusion
+            ├── bias.md                    # Behavioral audit (Block, Interpret, Act, Store)
+            ├── clear.md                   # Quantitative C.L.E.A.R. scoring guidelines
+            ├── rules-of-thumb.md          # Heuristics: Landing, E-com, Checkout, Pricing, Onboarding, Mobile
+            └── psychological-triggers.md  # 8 Applied behavioral economics triggers
 ```
 
 ---
@@ -208,7 +210,7 @@ npx skills add woakin/growth-design-review
 Contributions are welcome! If you have a new Psychological Trigger or a UI Rule of Thumb to add:
 
 1. Fork the repo.
-2. Update the appropriate file in the `reference/` directory (e.g., `reference/rules-of-thumb.md`).
+2. Update the appropriate file in the `skills/growth-design-review/reference/` directory (e.g., `skills/growth-design-review/reference/rules-of-thumb.md`).
 3. Open a Pull Request.
 
 See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for more details.

@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
+const skillDir = path.join(rootDir, 'skills', 'growth-design-review');
 
 console.log('🔍 Validating Growth Design Review Skill...\n');
 
@@ -20,8 +21,8 @@ function check(desc, condition) {
 }
 
 // 1. Verify SKILL.md exists and has valid frontmatter
-const skillPath = path.join(rootDir, 'SKILL.md');
-check('SKILL.md exists', fs.existsSync(skillPath));
+const skillPath = path.join(skillDir, 'SKILL.md');
+check('skills/growth-design-review/SKILL.md exists', fs.existsSync(skillPath));
 
 if (fs.existsSync(skillPath)) {
   const skillContent = fs.readFileSync(skillPath, 'utf8');
@@ -41,8 +42,8 @@ const requiredReferences = [
 ];
 
 for (const ref of requiredReferences) {
-  const refPath = path.join(rootDir, 'reference', ref);
-  check(`Reference file exists: reference/${ref}`, fs.existsSync(refPath));
+  const refPath = path.join(skillDir, 'reference', ref);
+  check(`Reference file exists: skills/growth-design-review/reference/${ref}`, fs.existsSync(refPath));
   if (fs.existsSync(refPath)) {
     const size = fs.statSync(refPath).size;
     check(`Reference file reference/${ref} is not empty (> 100 bytes)`, size > 100);
